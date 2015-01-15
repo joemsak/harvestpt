@@ -13,11 +13,13 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'harvested', '~> 3.1'
+gem 'pivotal-tracker', '~> 0.5'
 
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'dotenv-rails'
 end
 
 gem 'underscore-rails', '~> 1.7'
