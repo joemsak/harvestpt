@@ -1,7 +1,8 @@
 ruby '2.2.0'
 #ruby-gemset=pttime
 source 'https://rubygems.org'
-gem 'rails', '4.2.0'
+
+gem 'rails', '~> 4.2'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -17,14 +18,14 @@ group :development, :test do
   gem 'spring'
 end
 
-
 gem 'underscore-rails', '~> 1.7'
 gem 'foundation-rails', '~> 5.3'
 gem 'friendly_id', '~> 5.0'
+
 group :test do
   gem 'pry-rails', '~> 0.3'
   gem 'pry-nav', '~> 0.2'
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '~> 3.1'
   gem 'database_cleaner', '~> 1.3'
   gem 'launchy', '~> 2.4'
   gem 'capybara-webkit', '~> 1.2'
